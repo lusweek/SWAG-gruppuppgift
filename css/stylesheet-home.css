@@ -1,6 +1,7 @@
 body{
     background-color: white;
     margin: 0;
+    ;
 }
 .background-img{
     position: absolute;
@@ -32,6 +33,7 @@ z-index:-1 ;
 .title{ /*Detta ska ersättas av Lovisas css*/
     display: flex;
     justify-content: center;
+    padding-top: 40px;
 }
 
 
