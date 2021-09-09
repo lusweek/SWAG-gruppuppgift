@@ -1,6 +1,6 @@
 body{
     background-color: white;
-    margin: 0;
+    margin: 0px;
     ;
 }
 .background-img{
@@ -36,42 +36,40 @@ z-index:-1 ;
     padding-top: 40px;
 }
 
-
+/*Sektion 1*/
 .container1-2{
 display: flex;
 height: 400px;
+flex-basis: 90%;
 margin: 15px;
 margin-bottom: 50px;
-
 }
-
 .container1-2 img{
-width: 90%;
+    width: 100%;
 }
 .container1-2 div{
 flex-direction: column;
-overflow: auto;
-margin-left: 20px;
-
+margin: 20px;
+}
+.item-1-2{
+    overflow: auto;
 }
 
-
-
+/*Sektion 2*/
 .container1-3{
     display: flex;
-    width: 100%;
+    justify-content: center;
+    flex-basis: 90%;
     height: 400px;
     align-items: flex-start;
     margin-bottom: 50px;
-
+    margin: 10px;
 }
-
 .container1-3 img{
     width: 50%;
     margin: 30px;
 }
-.background-img{
-}
+
 .container1-3-p{
     flex-direction: column;
     flex-basis: 70%;
@@ -80,30 +78,55 @@ margin-left: 20px;
     height: 80%;
 }
 
-
-
+/*Sektion 3*/
 .container1-4{
     display: flex;
-    width: 100%;
+    flex-basis: 90%;
     height: 400px;
     align-items: flex-start;
-    margin: 50px;
-
+    margin: 30px;
 }
-
 .container1-4 img{
     width: 50%;
-    
-}
-.background-img{
 }
 .container1-4-p{
     flex-direction: column;
-    flex-basis: 70%;
+margin: 20px;    
+flex-basis: 70%;
     overflow: auto;
     height: 300px;
     order: 1;
-    margin: 20px;
-
 }
 
+/*För Iphone*/
+@media screen and (max-width:500px) {
+   
+    .container1-2{
+        display: flex;
+        flex-direction: column;
+        height: fit-content;
+    }
+    .container1-3{
+        display: flex;
+        flex-direction: column;
+        height: fit-content;
+    }
+    .container1-3-p{
+        order: 1;
+    }
+    .container1-3 img{
+        width: 90%;
+    }
+
+    .container1-4{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: fit-content;
+
+    }
+    .container1-4 img{
+        width: 90%;
+        
+    }
+}
