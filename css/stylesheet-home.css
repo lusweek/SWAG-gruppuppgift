@@ -5,7 +5,6 @@ body{
     background-image: linear-gradient(rgb(163, 162, 162), white);
 }
 
-/*Copy and delete? Start*/
 .navbar{
     display: flex;
     justify-content: space-around; 
@@ -231,25 +230,5 @@ footer a:hover{
 .btn-open{
     display: none;
 }
-/*HÄR SLUTAR LUKAS EDITS*/
-
-
-/* HÄR BÖRJAR KIMS REDIGERINGAR */
-
-
-
-
-
-
-
-/*HÄR SLUTAR KIMS EDITS*/
-
-/*HÄR BÖRJAR LOVISAS REDIGERINGAR*/
-
-
-
-
-
-
 
 }
