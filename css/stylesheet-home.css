@@ -5,6 +5,8 @@ body{
     background-image: linear-gradient(rgb(163, 162, 162), white);
 }
 
+/*HÄR kan du se att det är lugnt*/
+
 .navbar{
     display: flex;
     justify-content: space-around; 
@@ -232,10 +234,3 @@ footer a:hover{
 }
 
 }
-
-/*NY KOMMENTAR*/
-
-/*hejhej*/
-/*Skit på daj!*/
-
-/* Fler onödiga kommentarer - lukas som leker*/
