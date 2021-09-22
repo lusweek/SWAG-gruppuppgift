@@ -2,7 +2,7 @@ body {
   margin: 0px;
   padding-top: 0px;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  background-image: linear-gradient(rgb(163, 162, 162), white);
+  background-image: linear-gradient(rgba(163, 162, 162, 0), white);
 }
 * {
   box-sizing: border-box;
@@ -97,7 +97,29 @@ body {
   height: 80vh;
 }
 
+.header-picture-services {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)),
+    url(../img/image00003.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  margin: 0 !important;
+
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  height: 80vh;
+}
+
 .header-picture h1 {
+  font-size: 50px;
+  color: white;
+  text-align: center;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.header-picture-services h1 {
   font-size: 50px;
   color: white;
   text-align: center;
@@ -185,6 +207,16 @@ img {
     width: 80vw;
     height: fit-content;
   }
+  /* 
+===================================
+Centrerade logo på mobile menu
+===================================*/
+  .logo {
+    display: flex;
+    width: 100%;
+    margin-top: 40px;
+    margin-left: 20px;
+  }
   /*
   =====================
   NAVBAR TELEFON
@@ -205,6 +237,7 @@ img {
     width: 100vw;
   }
   .wrapper {
+    margin-top: 8rem;
     display: inline-flex;
     align-items: center;
     position: relative;
@@ -420,6 +453,7 @@ img {
   align-items: center;
   flex-wrap: wrap;
   z-index: 1000;
+  margin-bottom: 6rem;
 }
 .section {
   min-height: 60vh;
@@ -433,6 +467,7 @@ img {
   min-height: 60vh;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
   transition: transform 0.4s;
+  cursor: pointer;
 }
 
 .service-card p {
@@ -444,11 +479,11 @@ img {
 }
 
 .service-card h3 {
-  color: rgb(224, 193, 12);
+  color: yellow;
   transition: 0.4s;
   background-color: rgba(0, 0, 0, 0.89);
   border-radius: 50%;
-  padding: 5px 5px;
+  padding: 10px 10px;
 }
 
 .service-card:hover h3 {
