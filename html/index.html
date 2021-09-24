@@ -57,118 +57,6 @@
         </article>
 </section>
 <footer>
-<!--Kim lägg footern här-->
-
-</footer>
-
-
-<script>
-    let btnOpen=false
-    function openSideMenu(){
-        document.getElementById('navbar-side-id').style.width= '250px';
-        document.getElementById('btn-open').style.display='none';
-
-    }
-
-    function closeSideMenu(){
-        document.getElementById('navbar-side-id').style.width= '0';
-        document.getElementById('btn-open').style.display=''; /*display visible*/
-
-    }
-    
-</script>
-
-<body>
-    <!--Navbar VANLIG start-->
-    <header>
-        <nav class="navbar">
-            <img class="logo" src="../img/swag_logo_vector_02.svg"></img>
-            <a href="index.html">
-                <h3>Home</h3>
-            </a>
-            <!--Byt länk när flyttad från mapp-->
-            <a href="service.html">
-                <h3>Services</h3>
-            </a>
-            <a href="about.html">
-                <h3>About SWAG</h3>
-            </a>
-        </nav>
-    </header>
-    <!--Navbar VANLIG end-->
-    <!--Side menu start-->
-
-    <header>
-        <nav id="navbar-side-id" class="navbar-side">
-            <a href="#" class="btn-close" onclick="closeSideMenu()"> &times;</a>
-            <img class="logo" src="../img/swag_logo_vector_02.svg"></img>
-            <a href="index.html">
-                <h3>Home</h3>
-            </a>
-            <!--Byt länk när flyttad från mapp-->
-            <a href="service.html">
-                <h3>Services</h3>
-            </a>
-            <a href="about.html">
-                <h3>About SWAG</h3>
-            </a>
-            <div class="footercontainer">
-
-                <footer class="footer2">
-                    <div class="wrapper">
-
-
-                        <div class="icon facebook">
-                            <div class="tooltip">Facebook</div>
-                            <span><i class="fab fa-facebook-f"></i></span>
-                        </div>
-                        <div class="icon instagram">
-                            <div class="tooltip">Instagram</div>
-                            <span><i class="fab fa-instagram"></i></span>
-                        </div>
-                        <div class="icon youtube">
-                            <div class="tooltip">Mail</div>
-                            <span><i class="fas fa-envelope"></i></span>
-                        </div>
-
-
-
-                </footer>
-            </div>
-        </nav>
-        <a id="btn-open" class="btn-open" href="#" onclick="openSideMenu()">
-            <i class="fa fa-bars" aria-hidden="true"></i>
-        </a>
-    </header>
-    <!--Side menu end-->
-
-
-
-    <section class="meta-container">
-        <article class="header-picture">
-            <h1>Welcome to <br>SWAG</h1>
-        </article>
-
-        <article class="content-container-1">
-            <img alt="en bild" src="../img/image00001.jpeg">
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id nesciunt, porro eligendi animi eos
-                doloremque aperiam, ab dolor assumenda officiis numquam obcaecati magni delectus laborum architecto
-                nemo, nisi velit ex?</p>
-        </article>
-        <article class="content-container-2">
-            <img alt="en bild" src="../img/image00006.jpeg">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est error ut nobis voluptatem, aspernatur
-                consequuntur repudiandae corrupti nihil ratione maiores illum autem nostrum. Laboriosam cumque unde quo,
-                saepe nemo molestias.</p>
-        </article>
-        <article class="content-container-3">
-            <img src="../img/image00003.jpeg" alt="En tredje bild du inte kan se... to bad">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio quos aliquid quisquam eum, deleniti
-                sunt. Nam tempore natus quis officia nisi asperiores quasi vitae aperiam id alias? Expedita, sequi
-                voluptas.</p>
-        </article>
-    </section>
-    <!--FOOTER-->
     <div class="footercontainer">
 
         <footer class="footer2">
@@ -192,23 +80,24 @@
 
         </footer>
     </div>
+</footer>
 
 
-    <script>
-        let btnOpen = false
-        function openSideMenu() {
-            document.getElementById('navbar-side-id').style.width = '250px';
-            document.getElementById('btn-open').style.display = 'none';
+<script>
+    let btnOpen=false
+    function openSideMenu(){
+        document.getElementById('navbar-side-id').style.width= '250px';
+        document.getElementById('btn-open').style.display='none';
 
-        }
+    }
 
-        function closeSideMenu() {
-            document.getElementById('navbar-side-id').style.width = '0';
-            document.getElementById('btn-open').style.display = ''; /*display visible*/
+    function closeSideMenu(){
+        document.getElementById('navbar-side-id').style.width= '0';
+        document.getElementById('btn-open').style.display=''; /*display visible*/
 
-        }
-
-    </script>
+    }
+    
+</script>
 </body>
 
 </html>
