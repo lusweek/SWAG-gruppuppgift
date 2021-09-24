@@ -1,8 +1,12 @@
 body {
+  height: 100%;
   margin: 0px;
   padding-top: 0px;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   background-image: linear-gradient(rgba(163, 162, 162, 0), white);
+}
+html {
+  height: 100%;
 }
 * {
   box-sizing: border-box;
@@ -156,8 +160,8 @@ img {
   width: 40%;
 }
 
-.content-container-1 img{
-border-radius: 10px;
+.content-container-1 img {
+  border-radius: 10px;
 }
 .content-container-2 {
   display: flex;
@@ -184,7 +188,7 @@ border-radius: 10px;
   margin: 20px;
   width: 40%;
 }
-.content-container-3 img{
+.content-container-3 img {
   border-radius: 10px;
 }
 
