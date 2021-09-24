@@ -2,7 +2,6 @@ body{
     margin: 0px;
     padding-top: 0px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-image: linear-gradient(rgb(163, 162, 162), white);
 }
 
 /*HÄR kan du se att det är lugnt*/
@@ -123,31 +122,50 @@ img{
 }
 .content-container-1{
 display: flex;
+justify-content: center;
 flex-basis: 100%;
 margin: 10px;
 }
 .content-container-1 p{
     margin: 20px;
+    max-width: 450px;
+}
+.content-container-1 img{
+    max-height: 300px ;
+    max-width: 417px;
 }
 .content-container-2{
     display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
     flex-basis: 100%;
     margin: 10px;
+
 }
 .content-container-2 img{
-    order: 2;
+    order: 2; 
+    max-width: 417px;
+    border-radius: 10px;
 }
 .content-container-2 p{
     margin: 20px;
     order: 1;
+    max-width: 450px;
 }
 .content-container-3{
     display: flex;
+    justify-content: center;
     flex-basis: 100%;
     margin: 10px;
 }
 .content-container-3 p{
     margin: 20px;
+    max-width: 450px;
+}
+.content-container-3 img{
+    max-height: 300px ;
+    max-width: 417px;
 }
 footer{
     display: flex;
