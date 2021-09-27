@@ -1,13 +1,12 @@
 <!DOCTYPE html>
-
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SWAG About</title>
     <link rel="stylesheet" href="../css/stylesheet-home.css">
+    <link rel="icon" href="../img/swag_logo_vector_02.svg" type="swag_logo_vector_02"> <!-- Meta icon-->
     <script src="https://use.fontawesome.com/bf0334d3c9.js"></script>
     <script src="https://kit.fontawesome.com/961d697ef8.js" crossorigin="anonymous"></script>
 </head>
@@ -30,7 +29,56 @@
         </nav>
     </header>
     <!--Navbar VANLIG end-->
+
     <!--Side menu start-->
+    <header>
+        <nav id="navbar-side-id" class="navbar-side">
+            <a href="#" class="btn-close" onclick="closeSideMenu()"> &times;</a>
+            <img class="logo" src="../img/swag_logo_vector_02.svg"></img>
+            <a href="index.html">
+                <h3>Home</h3>
+            </a>
+            <a href="service.html">
+                <h3>Services</h3>
+            </a>
+            <a href="about.html">
+                <h3>About SWAG</h3>
+            </a>
+        </nav>
+        <a id="btn-open" class="btn-open" href="#" onclick="openSideMenu()">
+            <i class="fa fa-bars" aria-hidden="true"></i>
+        </a>
+    </header>
+    <!-- Side menu ends-->
+
+    <!-- About us images & text start-->
+    <section class="about-meta-container">
+        <article class="about-header-picture">
+            <h1>About SWAG</h1>
+        </article>
+
+        <article class="about-content-container-1">
+            <img src="../img/image00002.jpeg" alt="Image 1">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id nesciunt, porro eligendi animi eos
+                doloremque aperiam, ab dolor assumenda officiis numquam obcaecati magni delectus laborum architecto
+                nemo, nisi velit ex?</p>
+        </article>
+
+        <article class="about-content-container-2">
+            <img src="../img/image00004.jpeg" alt="Image 2">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est error ut nobis voluptatem, aspernatur
+                consequuntur repudiandae corrupti nihil ratione maiores illum autem nostrum. Laboriosam cumque unde quo,
+                saepe nemo molestias.</p>
+        </article>
+
+        <article class="about-content-container-3">
+            <img src="../img/image00007.jpeg" alt="Image 3">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio quos aliquid quisquam eum, deleniti
+                sunt. Nam tempore natus quis officia nisi asperiores quasi vitae aperiam id alias? Expedita, sequi
+                voluptas.</p>
+        </article>
+    </section>
+    <!-- About us images & text end-->
 
     <header>
         <nav id="navbar-side-id" class="navbar-side">
@@ -75,15 +123,6 @@
         </a>
     </header>
     <!--Side menu end-->
-
-
-
-    <section class="meta-container">
-        <article class="header-picture">
-            <h1>About us</h1>
-        </article>
-
-
     </section>
 
     <!--FOOTER-->
